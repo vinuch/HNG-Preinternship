@@ -5,3 +5,4 @@ the tasks from the HNG pre-internship.
 https://lucid.blog/vincentedeh42/post/1566574405
 
 # link to twitter post
+https://twitter.com/Vince_Edeh/status/1164928680193417218?s=20

@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../imgs/cool.jpeg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #00000091;
+    margin-top: 70px;
+    font-size: 1.2em;
+    font-family: cursive;
+    color: white;
+    height: 85vh;
+}
+
+.display-pic {
+    padding: 10px;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    animation: moveInLeft .8s ease-out;
+}
+
+@keyframes moveInLeft{
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    80% {
+    transform: translateX(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveInRight{
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    80% {
+    transform: translateX(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.display-pic img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.text-content {
+    float: right;
+    animation: moveInRight .8s ease-out;
+
+}
